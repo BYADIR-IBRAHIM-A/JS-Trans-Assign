@@ -115,10 +115,10 @@ const car = new Car("Toyota Camry", "Toyota", 1, "gas"); // تعريف سيار�
 const plane = new Plane("Boeing 747", "Boeing", 101, "Commercial"); // تعريف طائرة
 
 // إنشاء الحجوزات
-createReservation(pilot, car);   // حالة غير متوافقة
-createReservation(pilot, plane); // حالة متوافقة
-createReservation(driver, car);  // حالة متوافقة
-createReservation(driver, plane); // حالة غير متوافقة
+createReservation(pilot, car);   // حالة غير متوافقة لسائق طائرة
+createReservation(pilot, plane); // حالة متوافقة لطيار
+createReservation(driver, car);  // حالة متوافقة لسائق سيارة
+createReservation(driver, plane); // حالة غير متوافقة لسائق سيارة
 
 // عرض محتويات الحجوزات
 displayReservations();
